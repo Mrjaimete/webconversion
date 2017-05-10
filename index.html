@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>GradosAFarenheit</title>
+    </head>
+    <body>
+    
+        
+            <form action="operaciones.php" method="post">
+                <fieldset>
+                    <legend>Conversor de temperaturas</legend>
+                    <p>Escribe una temperatura en Celsius o Fahrenheit</p>
+                    <strong>Tempreatura:</strong>
+                    
+            <input type="text" name="temperatura" size="7" maxlength="7">
+                    <select name="opcion">
+                        <option value="c" selected="selected">Celsius</option>
+                        <option value="f">Fahrenheit</option>
+                        </select>
+                    <p><input type="submit" value="Conversion" name="Convertir">
+                    <input type="reset" value="Borrar" name="Back"></p>
+                </fieldset>
+            </form>
+        
+    
+    
+    </body>
+</html>
